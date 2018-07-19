@@ -1,0 +1,37 @@
+.skills-bars {
+	height: 350px;
+	margin-top: 20px;
+	position: relative;
+	opacity: 0;
+}
+
+.skills-item {
+	border-right: 3px solid #fff;
+	bottom: 0;
+	height : 0;
+	position: absolute;
+}
+
+.skills-item:nth-child(2n) {
+	background-color: #CF4141;
+}
+
+.skills-item:nth-child(2n+1) {
+	background-color: #353535;
+}
+
+.percent {
+	display: block;
+	font-size: 1.2em;
+	position: absolute;
+	text-align: center;
+	top: -30px;
+	width: 100%;
+}
+
+.skills-item p {
+	bottom: -40px;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
